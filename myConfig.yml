@@ -8,6 +8,8 @@ info:
     test: this is dev
 spring:
   profiles: dev
+server:
+  port: 3355
 ---
 spring:
   profiles: test
