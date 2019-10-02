@@ -1,3 +1,16 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
 info:
   pwd:
-    test: config from git
+    test: this is dev
+spring:
+  profiles: dev
+---
+spring:
+  profiles: test
+info:
+  pwd:
+    test: this is test
